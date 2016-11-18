@@ -11,4 +11,3 @@ migrations/
 
 # setuptools
 build/
-django_wechat_base.egg-info/
