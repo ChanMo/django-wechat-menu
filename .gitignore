@@ -1,0 +1,14 @@
+# python files
+__pycache__
+*.py[cod]
+
+# django
+migrations/
+
+# scss cache files
+*.css.map
+.sass-cache/
+
+# setuptools
+build/
+django_wechat_base.egg-info/

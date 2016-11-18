@@ -1,0 +1,63 @@
+Metadata-Version: 1.1
+Name: django-wechat-menu
+Version: 0.0.1
+Summary: add menu
+Home-page: https://github.com/ChanMo/django-wechat-menu/
+Author: ChanMo
+Author-email: chen.orange@aliyun.com
+License: BSD License
+Description: 微信自定义菜单管理模块
+        =================
+        
+        基于django-wechat-base的简单微信自定义管理模块
+        
+        快速开始:
+        ---------
+        
+        安装django-wechat-menu:
+        
+        .. code-block::
+        
+            pip install django-wechat-menu
+        
+        修改settings.py文件:
+        
+        .. code-block::
+        
+            INSTALLED_APPS = (
+                ...
+                'wechat',
+                'wechat_menu',
+                ...
+            )
+        
+        在settings.py文件底部添加:
+        
+        .. code-block::
+        
+            # wechat config
+            WECHAT = [
+                {
+                    'appid': 'demo',
+                    'appsecret': 'demo',
+                    'token': 'demo',
+                },
+            ]
+        
+        
+        版本更改:
+        ---------
+        
+Keywords: wechat django weixin menu
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

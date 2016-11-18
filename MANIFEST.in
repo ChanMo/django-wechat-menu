@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include wechat_message/templates *
+recursive-include wechat_message/locale *
