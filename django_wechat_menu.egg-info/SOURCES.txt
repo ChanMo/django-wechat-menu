@@ -15,3 +15,6 @@ wechat_menu/apps.py
 wechat_menu/models.py
 wechat_menu/tests.py
 wechat_menu/views.py
+wechat_menu/locale/zh_Hans/LC_MESSAGES/django.mo
+wechat_menu/locale/zh_Hans/LC_MESSAGES/django.po
+wechat_menu/templates/admin/wechat_menu/menu/change_list.html
