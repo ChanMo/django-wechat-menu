@@ -31,7 +31,7 @@ class Menu(Base):
                 button['button'].append(self.get_child_menu(item))
 
         button = json.dumps(button, ensure_ascii=False)
-        button = button.encode('utf8')
+        #button = button.encode('utf8')
         return button
 
 

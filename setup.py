@@ -9,8 +9,8 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as readme:
 
 setup(
     name = 'django-wechat-menu',
-    version = '0.0.2',
-    description = 'add menu template and locale',
+    version = '0.0.3',
+    description = 'remove encode twice error',
     long_description = README,
 
     url = 'https://github.com/ChanMo/django-wechat-menu/',

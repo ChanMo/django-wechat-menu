@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
 Name: django-wechat-menu
-Version: 0.0.2
-Summary: add menu template and locale
+Version: 0.0.3
+Summary: remove encode twice error
 Home-page: https://github.com/ChanMo/django-wechat-menu/
 Author: ChanMo
 Author-email: chen.orange@aliyun.com
